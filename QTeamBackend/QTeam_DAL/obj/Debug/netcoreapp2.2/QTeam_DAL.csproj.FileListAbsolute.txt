@@ -1,0 +1,8 @@
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\bin\Debug\netcoreapp2.2\QTeam_DAL.deps.json
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\bin\Debug\netcoreapp2.2\QTeam_DAL.dll
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\bin\Debug\netcoreapp2.2\QTeam_DAL.pdb
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\obj\Debug\netcoreapp2.2\QTeam_DAL.AssemblyInfoInputs.cache
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\obj\Debug\netcoreapp2.2\QTeam_DAL.AssemblyInfo.cs
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\obj\Debug\netcoreapp2.2\QTeam_DAL.dll
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\obj\Debug\netcoreapp2.2\QTeam_DAL.pdb
+C:\Users\User\Documents\SollicitatieOpdrachten\District01\QTeamBackend\QTeam_DAL\obj\Debug\netcoreapp2.2\QTeam_DAL.csprojAssemblyReference.cache
