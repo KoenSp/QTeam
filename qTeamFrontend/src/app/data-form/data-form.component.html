@@ -1,0 +1,56 @@
+<html>
+  <div class="mainDiv">
+    <header>
+      <div class="logoDiv">
+          <img class="logo" src="../../assets/logo.png">
+        </div>
+        <h1><i>VUL UW</i> GEGEVENS AAN</h1>
+    </header>
+  <body>
+    <head><link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet"></head>
+    <form (ngSubmit)="onSubmit()" #QTeamForm="ngForm">
+        <div class="columnDiv">
+          <div class="rowDiv">
+            <div class="startRowDiv"><fa-icon class="cursorChangers" id="radioDhr" [icon]="faDhr" (click)="radioDhr()"></fa-icon><a><b>Dhr.</b></a></div>
+            <div class="startRowDiv"><fa-icon class="cursorChangers" id="radioMevr" [icon]="faMevr" (click)="radioMevr()"></fa-icon><a><b>Mevr.</b></a></div>
+          </div>
+          <div class="rowDiv">
+            <input type="text" id="Voornaam" required [(ngModel)]="qTeamForm.Voornaam" name="Voornaam" #Voornaam="ngModel" placeholder="Voornaam">
+            <fa-icon [hidden]="Voornaam.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Voornaam.valid" [icon]="inputValid"></fa-icon>
+            <input type="text" id="Naam" required [(ngModel)]="qTeamForm.Naam" name="Naam" #Naam="ngModel" placeholder="Naam">
+            <fa-icon [hidden]="Naam.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Naam.valid" [icon]="inputValid"></fa-icon>
+          </div>
+          <div class="columnDiv">
+            <div class="rowDiv"><input type="text" id="Nummerplaat" required [(ngModel)]="qTeamForm.Nummerplaat" name="Nummerplaat" #Nummerplaat="ngModel" placeholder="Nummerplaat">
+              <fa-icon [hidden]="Nummerplaat.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Nummerplaat.valid" [icon]="inputValid"></fa-icon></div>
+            <div class="rowDiv"><input type="email" id="Email" required [(ngModel)]="qTeamForm.Email" name="Email" #Email="ngModel" placeholder="Email">
+              <fa-icon [hidden]="Email.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Email.valid" [icon]="inputValid"></fa-icon></div>
+            <div class="rowDiv"><input type="text" id="Straat" required [(ngModel)]="qTeamForm.Straat" name="Straat" #Straat="ngModel" placeholder="Straat">
+              <fa-icon [hidden]="Straat.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Straat.valid" [icon]="inputValid"></fa-icon></div>
+          </div>
+          <div class="rowDiv">
+            <input type="number" id="Nummer" required [(ngModel)]="qTeamForm.Nummer" name="Nummer" #Nummer="ngModel" placeholder="Nummer">
+            <fa-icon [hidden]="Nummer.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Nummer.valid" [icon]="inputValid"></fa-icon>
+            <input type="text" id="Bus" [(ngModel)]="qTeamForm.Bus" name="Bus" #Bus="ngModel" placeholder="Bus">
+            <fa-icon [hidden]="Bus.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Bus.valid" [icon]="inputValid"></fa-icon>
+          </div>
+          <div class="rowDiv">
+            <input type="text" id="Stad" required [(ngModel)]="qTeamForm.Stad" name="Stad" #Stad="ngModel" placeholder="Stad">
+            <fa-icon [hidden]="Stad.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Stad.valid" [icon]="inputValid"></fa-icon>
+            <input type="text" id="Postcode" required [(ngModel)]="qTeamForm.Postcode" name="Postcode" #Postcode="ngModel" placeholder="Postcode">
+            <fa-icon [hidden]="Postcode.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Postcode.valid" [icon]="inputValid"></fa-icon>
+          </div>
+          <div class="columnDiv">
+            <div class="rowDiv"><input type="text" id="Telefoon" required [(ngModel)]="qTeamForm.Telefoon" name="Telefoon" #Telefoon="ngModel" placeholder="Telefoon">
+              <fa-icon [hidden]="Telefoon.valid" [icon]="inputInvalid"></fa-icon><fa-icon class="validCheck" [hidden]="!Telefoon.valid" [icon]="inputValid"></fa-icon></div>
+            <div class="startRowDiv"><fa-icon class="cursorChangers" id="checkBox" [icon]="checkBox" (click)="checkClick()"></fa-icon><a>Hou mij op de hoogte wanneer er interessante acties zijn bij Q Team.</a></div>
+            <div class="centerDiv"><button class="submitBtn" type="submit" [disabled]="!QTeamForm.form.valid">Bevestigen</button></div>
+          </div>
+        </div>
+    </form>
+  </body>
+    <footer>
+      <img class="foot" src="../../assets/footer.png">
+    </footer>
+  </div>
+</html>

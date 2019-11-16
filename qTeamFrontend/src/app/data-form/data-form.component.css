@@ -1,0 +1,100 @@
+html{
+    display: flex; 
+    justify-content: center; 
+}
+.mainDiv{
+    border-style: solid; 
+    border-color: grey; 
+    width: 50%; 
+}
+.columnDiv{
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 10px; 
+}
+.centerDiv{
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+}
+.validCheck{
+    color: green; 
+}
+.submitBtn{
+    cursor: pointer; 
+    background-color: #e31d3c; /* Green */
+    border: none;
+    border-radius: 5px; 
+    color: #fff;
+    width: 33%; 
+    padding: 15px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+}
+.submitBtn:disabled{
+    opacity: 0.8; 
+    cursor: not-allowed; 
+}
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900 !important;
+    color: #e31d3c;
+    text-align: center; 
+}
+a{
+    font-family: 'Montserrat', sans-serif; 
+}
+.logoDiv{
+    display: flex; 
+    justify-content: flex-end;
+}
+.logo{
+    width: 20%; 
+}
+.rowDiv{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    margin-bottom: 10px; 
+}
+.startRowDiv{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+.cursorChangers{
+    cursor: pointer; 
+}
+input[type=text], [type=number], [type=email]{
+    width: 100%; 
+    border-style: solid; 
+    border-width: 1px; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    padding: 12px 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+fa-icon{
+    color: #e31d3c;
+    font-size: 2rem; 
+    margin: 5px; 
+}
+.foot{
+    width: 100%; 
+}
+@media only screen and (max-width: 1200px) {
+    .mainDiv{
+        width: 75%; 
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .mainDiv{
+        width: 100%; 
+    }
+  }
+  
